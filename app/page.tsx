@@ -21,7 +21,7 @@ export default function Page() {
             </p>
           </div>
           <div>
-            <h3 className="font-semibold mb-1">✉️ 스마트 이메일 관리</h3>
+            <h3 className="font-semibold mb-1">✉️ 보험사 AI 감사 Agent 솔루션</h3>
             <p className="text-sm text-neutral-600 dark:text-neutral-400">
               고객 문의를 자동으로 분류하고 적절한 답변을 생성합니다
             </p>
