@@ -4,7 +4,7 @@ export default function Page() {
   return (
     <section>
       <h1 className="mb-8 text-2xl font-semibold tracking-tighter">
-        Bitpia.dev
+        BITPIA.dev 가 해결합니다.
       </h1>
       <p className="mb-4">
         {`"복잡한 서류 업무부터 메일 대응까지, 당신의 비즈니스를 실행하는 AI 직원을 만들어 드립니다."`}
