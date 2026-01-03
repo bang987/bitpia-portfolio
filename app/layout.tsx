@@ -11,16 +11,16 @@ import { baseUrl } from './sitemap'
 export const metadata: Metadata = {
   metadataBase: new URL(baseUrl),
   title: {
-    default: 'Next.js Portfolio Starter',
-    template: '%s | Next.js Portfolio Starter',
+    default: 'BITPIA - AI 직원 솔루션',
+    template: '%s | BITPIA',
   },
-  description: 'This is my portfolio.',
+  description: '복잡한 서류 업무부터 메일 대응까지, 당신의 비즈니스를 실행하는 AI 직원을 만들어 드립니다.',
   openGraph: {
-    title: 'My Portfolio',
-    description: 'This is my portfolio.',
+    title: 'BITPIA - AI 직원 솔루션',
+    description: '복잡한 서류 업무부터 메일 대응까지, 당신의 비즈니스를 실행하는 AI 직원을 만들어 드립니다.',
     url: baseUrl,
-    siteName: 'My Portfolio',
-    locale: 'en_US',
+    siteName: 'BITPIA',
+    locale: 'ko_KR',
     type: 'website',
   },
   robots: {
@@ -45,7 +45,7 @@ export default function RootLayout({
 }) {
   return (
     <html
-      lang="en"
+      lang="ko"
       className={cx(
         'text-black bg-white dark:text-white dark:bg-black',
         GeistSans.variable,
