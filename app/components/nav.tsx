@@ -4,12 +4,6 @@ const navItems = {
   '/': {
     name: '홈',
   },
-  '/about': {
-    name: '소개',
-  },
-  '/blog': {
-    name: '블로그',
-  },
 }
 
 export function Navbar() {
