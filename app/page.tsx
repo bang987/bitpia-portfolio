@@ -1,6 +1,3 @@
-import { BlogPosts } from 'app/components/posts'
-import Link from 'next/link'
-
 export default function Page() {
   return (
     <section>
@@ -59,19 +56,6 @@ export default function Page() {
             </p>
           </div>
         </div>
-        <div className="mt-8 text-center">
-          <Link
-            href="/about"
-            className="inline-block px-6 py-3 bg-emerald-500 hover:bg-emerald-600 text-white font-semibold rounded-lg transition-colors"
-          >
-            자세히 알아보기 →
-          </Link>
-        </div>
-      </div>
-
-      <div className="my-8">
-        <h2 className="font-semibold text-xl mb-4">최신 글</h2>
-        <BlogPosts />
       </div>
     </section>
   )
