@@ -78,7 +78,7 @@ export default function AboutPage() {
           <strong>이메일:</strong>{' '}
           <a
             href="mailto:bang987@naver.com"
-            className="text-blue-600 dark:text-blue-400 hover:underline"
+            className="text-emerald-600 dark:text-emerald-400 hover:underline"
           >
             bang987@naver.com
           </a>

@@ -1,7 +1,7 @@
 @import 'tailwindcss';
 
 ::selection {
-  background-color: #47a3f3;
+  background-color: #10b981;
   color: #fefefe;
 }
 
@@ -48,7 +48,7 @@ html {
 }
 
 .prose a {
-  @apply underline transition-all decoration-neutral-400 dark:decoration-neutral-600 underline-offset-2 decoration-[0.1em];
+  @apply text-emerald-600 dark:text-emerald-400 underline transition-all decoration-emerald-400 dark:decoration-emerald-600 underline-offset-2 decoration-[0.1em] hover:decoration-emerald-600 dark:hover:decoration-emerald-400;
 }
 
 .prose .anchor:after {
