@@ -1,3 +1,5 @@
+import Image from 'next/image'
+
 export default function Footer() {
   return (
     <footer className="border-t border-neutral-200/50 dark:border-neutral-800/50 bg-white/50 dark:bg-neutral-900/50 backdrop-blur-sm">
@@ -5,9 +7,13 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row md:items-center md:justify-between gap-6">
           {/* Brand */}
           <div>
-            <div className="text-xl font-bold text-neutral-900 dark:text-white mb-2">
-              BITPIA
-            </div>
+            <Image
+              src="/img/bitpia_logo.png"
+              alt="BITPIA"
+              width={140}
+              height={42}
+              className="h-8 w-auto mb-3 drop-shadow-md dark:invert"
+            />
             <p className="text-sm text-neutral-500 dark:text-neutral-400">
               AI 직원 솔루션으로 비즈니스를 혁신합니다
             </p>

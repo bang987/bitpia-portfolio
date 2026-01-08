@@ -1,11 +1,25 @@
+import Image from 'next/image'
+
 export default function Page() {
   return (
     <div className="mesh-gradient grid-pattern min-h-screen">
       {/* Hero Section */}
       <section className="hero-gradient relative pt-16 pb-20 md:pt-24 md:pb-32">
         <div className="container-main">
+          {/* Logo */}
+          <div className="animate-fade-in-up mb-8">
+            <Image
+              src="/img/bitpia_logo.png"
+              alt="BITPIA"
+              width={200}
+              height={60}
+              className="h-12 md:h-16 w-auto drop-shadow-lg dark:invert"
+              priority
+            />
+          </div>
+
           {/* Badge */}
-          <div className="animate-fade-in-up">
+          <div className="animate-fade-in-up delay-100">
             <span className="badge">
               <span className="badge-dot"></span>
               Enterprise AI Solutions
@@ -13,7 +27,7 @@ export default function Page() {
           </div>
 
           {/* Main Headline */}
-          <h1 className="mt-8 text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.1] animate-fade-in-up delay-100">
+          <h1 className="mt-8 text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.1] animate-fade-in-up delay-200">
             <span className="text-balance">AI 시대,</span>
             <br />
             <span className="text-gradient">BITPIA</span>
@@ -21,7 +35,7 @@ export default function Page() {
           </h1>
 
           {/* Subheadline */}
-          <p className="mt-6 text-lg md:text-xl text-neutral-600 dark:text-neutral-400 max-w-2xl leading-relaxed animate-fade-in-up delay-200">
+          <p className="mt-6 text-lg md:text-xl text-neutral-600 dark:text-neutral-400 max-w-2xl leading-relaxed animate-fade-in-up delay-300">
             복잡한 서류 업무부터 금융권 감사 대응까지,
             <br className="hidden sm:block" />
             당신의 비즈니스를 실행하는{' '}
@@ -29,7 +43,7 @@ export default function Page() {
           </p>
 
           {/* CTA Buttons */}
-          <div className="mt-10 flex flex-col sm:flex-row gap-4 animate-fade-in-up delay-300">
+          <div className="mt-10 flex flex-col sm:flex-row gap-4 animate-fade-in-up delay-400">
             <a
               href="mailto:bang987@naver.com"
               className="btn-primary inline-flex items-center justify-center gap-2"
