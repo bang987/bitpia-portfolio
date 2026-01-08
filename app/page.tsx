@@ -6,16 +6,8 @@ export default function Page() {
       {/* Hero Section */}
       <section className="hero-gradient relative pt-16 pb-20 md:pt-24 md:pb-32">
         <div className="container-main">
-          {/* Badge */}
-          <div className="animate-fade-in-up">
-            <span className="badge">
-              <span className="badge-dot"></span>
-              Enterprise AI Solutions
-            </span>
-          </div>
-
           {/* Main Headline */}
-          <h1 className="mt-8 text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.1] animate-fade-in-up delay-100">
+          <h1 className="text-4xl md:text-5xl lg:text-6xl font-bold tracking-tight leading-[1.1] animate-fade-in-up">
             <span className="text-balance">AI 시대,</span>
             <br />
             <span className="inline-flex items-baseline">
